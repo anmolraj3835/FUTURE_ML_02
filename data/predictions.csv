@@ -1,0 +1,201 @@
+ticket_id,original_text,actual_category,predicted_category,actual_priority,predicted_priority
+TKT-0717,I need this resolved ASAP. Do you provide onboarding support for new customers? Thanks!,General Inquiry,General Inquiry,Low,High
+TKT-0196,I want a refund for the service I did not use. Please advise.,Billing Issue,Billing Issue,Medium,Medium
+TKT-0896,Password reset token has expired before I could use it.,Account Access,Account Access,Medium,Medium
+TKT-0977,The annual billing amount is incorrect. Looking forward to your response.,Billing Issue,Billing Issue,Medium,Medium
+TKT-0771,How do I get started with the platform? Thank you for your help.,General Inquiry,General Inquiry,Low,Low
+TKT-0694,How do I get started with the platform?,General Inquiry,General Inquiry,Low,Low
+TKT-0814,What is the maximum file upload size allowed? Looking forward to your response.,General Inquiry,General Inquiry,Low,Low
+TKT-0299,Two-factor authentication codes are not being received.,Technical Issue,Technical Issue,Medium,Medium
+TKT-0881,Subscription renewed without sending any reminder email. Please advise.,Billing Issue,Billing Issue,Medium,Medium
+TKT-0884,My free trial ended early and I was charged immediately. Looking forward to your response.,Billing Issue,Billing Issue,High,High
+TKT-0589,Can I use the service for my non-profit organization? Thank you for your help.,General Inquiry,General Inquiry,Low,Medium
+TKT-0007,The calendar sync is broken between devices. Could you help?,Technical Issue,Technical Issue,High,High
+TKT-0008,Are there any upcoming features on the product roadmap? Thank you for your help.,General Inquiry,General Inquiry,Low,Low
+TKT-0330,I need to dispute a charge that appears on my statement. Could you help?,Billing Issue,Billing Issue,Medium,Medium
+TKT-0605,I want a refund for the service I did not use. Looking forward to your response.,Billing Issue,Billing Issue,Medium,Medium
+TKT-0652,Can I get a receipt for my recent payment? Looking forward to your response.,Billing Issue,Billing Issue,Medium,Medium
+TKT-0791,The website shows a 404 error on multiple pages.,Technical Issue,Technical Issue,High,High
+TKT-0223,I forgot my password and the reset link is not working. Appreciate your support.,Account Access,Account Access,High,High
+TKT-0307,Push notifications are not being delivered to my device. Appreciate your support.,Technical Issue,Technical Issue,Medium,Medium
+TKT-0537,I cannot access my account even with correct credentials. Thanks!,Account Access,Account Access,Medium,Medium
+TKT-0158,Can I use the service for my non-profit organization? Could you help?,General Inquiry,General Inquiry,Low,Medium
+TKT-0593,URGENT: I was charged twice for my subscription this month. Please advise.,Billing Issue,Billing Issue,High,High
+TKT-0540,What features are included in the free tier? Could you help?,General Inquiry,General Inquiry,Low,Low
+TKT-0040,I need to update my payment method on file. Please advise.,Billing Issue,Billing Issue,Medium,Medium
+TKT-0603,I'm getting an error message when I try to log in. Looking forward to your response.,Technical Issue,Technical Issue,High,High
+TKT-0385,Video calls keep dropping after a few minutes. Thank you for your help.,Technical Issue,Technical Issue,Medium,Medium
+TKT-0347,How do I get started with the platform? Thanks!,General Inquiry,General Inquiry,Low,Low
+TKT-0239,The export to PDF function is broken and produces empty files.,Technical Issue,Technical Issue,High,High
+TKT-0442,Subscription renewed without sending any reminder email. Looking forward to your response.,Billing Issue,Billing Issue,Medium,Medium
+TKT-0349,How does the referral program work?,General Inquiry,General Inquiry,Low,Low
+TKT-0596,I forgot my password and the reset link is not working. Could you help?,Account Access,Account Access,High,High
+TKT-0324,Do you have documentation or tutorials for beginners? Thanks!,General Inquiry,General Inquiry,Low,Low
+TKT-0365,The API endpoint returns a 500 internal server error. Please advise.,Technical Issue,Technical Issue,High,High
+TKT-0707,The software is not working after the latest update. Looking forward to your response.,Technical Issue,Technical Issue,High,High
+TKT-0591,Auto-save feature is not working and I lost my document.,Technical Issue,Technical Issue,High,High
+TKT-0259,I need to recover my account after losing my phone. Thank you for your help.,Account Access,Account Access,Medium,Medium
+TKT-0677,I see an unauthorized charge on my credit card statement. Please advise.,Billing Issue,Billing Issue,High,High
+TKT-0373,I need to split my invoice for different departments. Looking forward to your response.,Billing Issue,Billing Issue,Medium,Medium
+TKT-1000,Login page shows a blank screen on my browser. Looking forward to your response.,Account Access,Account Access,Medium,Medium
+TKT-0564,I cannot find the cancel subscription option anywhere. Please advise.,Billing Issue,Billing Issue,Medium,Medium
+TKT-0044,My account permissions were changed without my knowledge. Looking forward to your response.,Account Access,Account Access,Medium,Medium
+TKT-0275,I need this resolved ASAP. What languages does the platform support? Appreciate your support.,General Inquiry,General Inquiry,Low,High
+TKT-0207,What is your data privacy and security policy? Looking forward to your response.,General Inquiry,General Inquiry,Low,Low
+TKT-0590,I need to split my invoice for different departments. Thank you for your help.,Billing Issue,Billing Issue,Medium,Medium
+TKT-0830,I need to recover my account after losing my phone. Thanks!,Account Access,Account Access,Medium,Medium
+TKT-0369,Push notifications are not being delivered to my device. Thanks!,Technical Issue,Technical Issue,Medium,Medium
+TKT-0181,I cannot access shared resources that were assigned to me. Appreciate your support.,Account Access,Account Access,Medium,Medium
+TKT-0693,I cannot install the latest version on my computer.,Technical Issue,Technical Issue,Medium,Medium
+TKT-0584,The website shows a 404 error on multiple pages. Could you help?,Technical Issue,Technical Issue,High,High
+TKT-0010,My account has been locked after multiple failed attempts. Please advise.,Account Access,Account Access,High,High
+TKT-0309,What integrations are available with other tools? Appreciate your support.,General Inquiry,General Inquiry,Low,Low
+TKT-0173,I cannot log in from my new device. Appreciate your support.,Account Access,Account Access,Medium,Medium
+TKT-0014,Video calls keep dropping after a few minutes. Could you help?,Technical Issue,Technical Issue,Medium,Medium
+TKT-0735,Subscription renewed without sending any reminder email.,Billing Issue,Billing Issue,Medium,Medium
+TKT-0753,The verification email was never delivered to my inbox. Thanks!,Account Access,Account Access,Medium,Medium
+TKT-0988,The single sign-on integration is not working for my team.,Account Access,Account Access,High,High
+TKT-0611,Can you provide more information about your enterprise plan? Please advise.,General Inquiry,General Inquiry,Low,Low
+TKT-0392,Emergency! Someone may have hacked into my account without permission. Looking forward to your response.,Account Access,Account Access,High,High
+TKT-0747,The verification email was never delivered to my inbox. Could you help?,Account Access,Account Access,Medium,Medium
+TKT-0416,How do I provide feedback or suggest a feature? Could you help?,General Inquiry,General Inquiry,Low,Low
+TKT-0726,Are there any upcoming features on the product roadmap? Thank you for your help.,General Inquiry,General Inquiry,Low,Low
+TKT-0633,Are there any upcoming features on the product roadmap? Looking forward to your response.,General Inquiry,General Inquiry,Low,Low
+TKT-0878,What is the uptime guarantee for your service? Please advise.,General Inquiry,General Inquiry,Low,Low
+TKT-0719,I was charged for a premium feature I never activated.,Billing Issue,Billing Issue,Medium,Medium
+TKT-0535,Subscription renewed without sending any reminder email.,Billing Issue,Billing Issue,Medium,Medium
+TKT-0396,I want to enable two-factor authentication on my account. Thank you for your help.,Account Access,Account Access,Medium,Medium
+TKT-0664,How does the referral program work? Thanks!,General Inquiry,General Inquiry,Low,Low
+TKT-0932,I want a refund for the service I did not use. Appreciate your support.,Billing Issue,Billing Issue,Medium,Medium
+TKT-0934,Password reset token has expired before I could use it. Thank you for your help.,Account Access,Account Access,Medium,Medium
+TKT-0318,Account deactivated even though I am an active subscriber. Please advise.,Account Access,Account Access,Medium,Medium
+TKT-0043,Payment gateway keeps rejecting my valid credit card. Could you help?,Billing Issue,Billing Issue,Medium,Medium
+TKT-0464,Currency conversion fee was not mentioned during purchase. Looking forward to your response.,Billing Issue,Billing Issue,Medium,Medium
+TKT-0086,Please help immediately! What is the maximum file upload size allowed? Please advise.,General Inquiry,General Inquiry,High,High
+TKT-0555,This is critical — What integrations are available with other tools? Thank you for your help.,General Inquiry,General Inquiry,High,High
+TKT-0192,The export to PDF function is broken and produces empty files. Please advise.,Technical Issue,Technical Issue,High,High
+TKT-0456,I need this resolved ASAP. Two-factor authentication codes are not being received. Looking forward to your response.,Technical Issue,Technical Issue,Medium,High
+TKT-0806,My account has been locked after multiple failed attempts. Looking forward to your response.,Account Access,Account Access,High,High
+TKT-0925,Refund has not been processed after 14 business days. Looking forward to your response.,Billing Issue,Billing Issue,Medium,Medium
+TKT-0348,Performance has degraded significantly since the last patch. Looking forward to your response.,Technical Issue,Technical Issue,Medium,Medium
+TKT-0915,Password reset token has expired before I could use it. Appreciate your support.,Account Access,Account Access,Medium,Medium
+TKT-0467,Refund has not been processed after 14 business days. Thanks!,Billing Issue,Billing Issue,Medium,Medium
+TKT-0751,The mobile app is not compatible with my operating system. Appreciate your support.,Technical Issue,Technical Issue,Medium,Medium
+TKT-0550,What are your customer support operating hours? Could you help?,General Inquiry,General Inquiry,Low,Medium
+TKT-0301,Are there any upcoming features on the product roadmap? Looking forward to your response.,General Inquiry,General Inquiry,Low,Low
+TKT-0812,Two-factor authentication codes are not being received. Please advise.,Technical Issue,Technical Issue,Medium,Medium
+TKT-0142,I cannot access my account even with correct credentials. Could you help?,Account Access,Account Access,Medium,Medium
+TKT-0225,I need to recover my account after losing my phone. Please advise.,Account Access,Account Access,Medium,Medium
+TKT-0606,My account profile information cannot be updated. Thanks!,Account Access,Account Access,Medium,Low
+TKT-0850,I'm locked out of my admin panel completely. Looking forward to your response.,Account Access,Account Access,High,High
+TKT-0084,My account has been locked after multiple failed attempts. Could you help?,Account Access,Account Access,High,High
+TKT-0185,This is critical — I cannot install the latest version on my computer. Thanks!,Technical Issue,Technical Issue,High,High
+TKT-0106,File upload fails with a network error message. Please advise.,Technical Issue,Technical Issue,High,High
+TKT-0679,Please help immediately! What are the system requirements to run the software? Appreciate your support.,General Inquiry,General Inquiry,High,High
+TKT-0437,I'm locked out of my admin panel completely. Could you help?,Account Access,Account Access,High,High
+TKT-0266,This is critical — I need to merge two duplicate accounts into one. Please advise.,Account Access,Account Access,High,High
+TKT-0203,The calendar sync is broken between devices. Looking forward to your response.,Technical Issue,Technical Issue,High,High
+TKT-0865,Two-factor authentication codes are not being received. Please advise.,Technical Issue,Technical Issue,Medium,Medium
+TKT-0381,I need to merge two duplicate accounts into one. Could you help?,Account Access,Account Access,Medium,Medium
+TKT-0787,Can I use the service for my non-profit organization? Please advise.,General Inquiry,General Inquiry,Low,Medium
+TKT-0811,This is critical — Why was I charged after I cancelled my subscription? Please advise.,Billing Issue,Billing Issue,High,High
+TKT-0221,The integration with third-party tools has stopped working.,Technical Issue,Technical Issue,Medium,Medium
+TKT-0523,Tax amount on invoice seems incorrect for my region. Looking forward to your response.,Billing Issue,Billing Issue,Medium,Medium
+TKT-0423,My account permissions were changed without my knowledge. Please advise.,Account Access,Account Access,Medium,Medium
+TKT-0253,Performance has degraded significantly since the last patch.,Technical Issue,Technical Issue,Medium,Medium
+TKT-0927,What are your customer support operating hours? Looking forward to your response.,General Inquiry,General Inquiry,Low,Medium
+TKT-0006,What integrations are available with other tools? Appreciate your support.,General Inquiry,General Inquiry,Low,Low
+TKT-0700,My account permissions were changed without my knowledge. Appreciate your support.,Account Access,Account Access,Medium,Medium
+TKT-0880,Push notifications are not being delivered to my device. Looking forward to your response.,Technical Issue,Technical Issue,Medium,Medium
+TKT-0998,Payment gateway keeps rejecting my valid credit card. Could you help?,Billing Issue,Billing Issue,Medium,Medium
+TKT-0204,I need this resolved ASAP. How can I contact the sales team for a demo? Thanks!,General Inquiry,General Inquiry,Low,High
+TKT-0168,Can I use the service for my non-profit organization? Thanks!,General Inquiry,General Inquiry,Low,Medium
+TKT-0004,The app crashes immediately on startup with a fatal error. Please advise.,Technical Issue,Technical Issue,High,High
+TKT-0197,My account permissions were changed without my knowledge. Could you help?,Account Access,Account Access,Medium,Medium
+TKT-0922,Is there a student or educational discount available? Could you help?,General Inquiry,General Inquiry,Low,Low
+TKT-0807,Cannot add team members to my organization account. Thank you for your help.,Account Access,Account Access,Medium,Medium
+TKT-0759,Someone may have hacked into my account without permission. Thanks!,Account Access,Account Access,High,High
+TKT-0394,The API endpoint returns a 500 internal server error. Thank you for your help.,Technical Issue,Technical Issue,High,High
+TKT-0827,Error 503 keeps appearing when accessing the dashboard.,Technical Issue,Technical Issue,High,High
+TKT-0532,Guest access link is not working for external users. Looking forward to your response.,Account Access,Account Access,High,High
+TKT-0177,Emergency! Can I get a receipt for my recent payment? Thank you for your help.,Billing Issue,Billing Issue,Medium,High
+TKT-0529,My payment failed but the amount was deducted from my account. Looking forward to your response.,Billing Issue,Billing Issue,High,High
+TKT-0654,I need this resolved ASAP. File upload fails with a network error message.,Technical Issue,Technical Issue,High,High
+TKT-0970,Charged for additional users that were never added. Please advise.,Billing Issue,Billing Issue,Medium,Medium
+TKT-0990,The software is not working after the latest update. Looking forward to your response.,Technical Issue,Technical Issue,High,High
+TKT-0166,I need to split my invoice for different departments. Please advise.,Billing Issue,Billing Issue,Medium,Medium
+TKT-0247,I want a refund for the service I did not use. Appreciate your support.,Billing Issue,Billing Issue,Medium,Medium
+TKT-0612,Refund has not been processed after 14 business days. Looking forward to your response.,Billing Issue,Billing Issue,Medium,Medium
+TKT-0665,I see an unauthorized charge on my credit card statement. Could you help?,Billing Issue,Billing Issue,High,High
+TKT-0048,My free trial ended early and I was charged immediately. Thank you for your help.,Billing Issue,Billing Issue,High,High
+TKT-0364,I need to change the email address associated with my account.,Account Access,Account Access,Medium,Medium
+TKT-0822,I need to split my invoice for different departments.,Billing Issue,Billing Issue,Medium,Medium
+TKT-0050,What integrations are available with other tools?,General Inquiry,General Inquiry,Low,Low
+TKT-0894,Tax amount on invoice seems incorrect for my region. Thank you for your help.,Billing Issue,Billing Issue,Medium,Medium
+TKT-0354,Payment gateway keeps rejecting my valid credit card. Looking forward to your response.,Billing Issue,Billing Issue,Medium,Medium
+TKT-0314,The single sign-on integration is not working for my team. Please advise.,Account Access,Account Access,High,High
+TKT-0578,Payment gateway keeps rejecting my valid credit card. Thank you for your help.,Billing Issue,Billing Issue,Medium,Medium
+TKT-0082,Login page shows a blank screen on my browser.,Account Access,Account Access,Medium,Medium
+TKT-0375,Cannot add team members to my organization account. Looking forward to your response.,Account Access,Account Access,Medium,Medium
+TKT-0472,I need to merge two duplicate accounts into one. Looking forward to your response.,Account Access,Account Access,Medium,Medium
+TKT-0672,Can I get a receipt for my recent payment? Please advise.,Billing Issue,Billing Issue,Medium,Medium
+TKT-0981,The system is extremely slow and keeps freezing. Thanks!,Technical Issue,Technical Issue,Medium,Medium
+TKT-0650,Emergency! What features are included in the free tier? Could you help?,General Inquiry,General Inquiry,Low,High
+TKT-0655,I need to dispute a charge that appears on my statement. Looking forward to your response.,Billing Issue,Billing Issue,Medium,Medium
+TKT-0788,The invoice amount does not match my subscription plan.,Billing Issue,Billing Issue,Medium,Low
+TKT-0308,The website shows a 404 error on multiple pages. Thank you for your help.,Technical Issue,Technical Issue,High,High
+TKT-0748,Account deactivated even though I am an active subscriber.,Account Access,Account Access,Medium,Medium
+TKT-0468,I cannot access shared resources that were assigned to me.,Account Access,Account Access,Medium,Medium
+TKT-0120,How do I get started with the platform?,General Inquiry,General Inquiry,Low,Low
+TKT-0755,I need this resolved ASAP. My application keeps crashing every time I try to open it. Thank you for your help.,Technical Issue,Technical Issue,Medium,High
+TKT-0651,I want to downgrade my plan but still being charged full price. Looking forward to your response.,Billing Issue,Billing Issue,Medium,Low
+TKT-0826,Emergency! I need to change the email address associated with my account. Looking forward to your response.,Account Access,Account Access,Medium,High
+TKT-0636,My session keeps expiring every few minutes. Could you help?,Account Access,Account Access,Medium,Medium
+TKT-0083,I'm getting an error message when I try to log in.,Technical Issue,Technical Issue,High,High
+TKT-0855,Video calls keep dropping after a few minutes. Looking forward to your response.,Technical Issue,Technical Issue,Medium,Medium
+TKT-0001,My application keeps crashing every time I try to open it. Thank you for your help.,Technical Issue,Technical Issue,Medium,Medium
+TKT-0246,I need to transfer account ownership to another person. Appreciate your support.,Account Access,Account Access,Medium,Medium
+TKT-0792,My application keeps crashing every time I try to open it. Thank you for your help.,Technical Issue,Technical Issue,Medium,Medium
+TKT-0926,I cannot install the latest version on my computer. Could you help?,Technical Issue,Technical Issue,Medium,Medium
+TKT-0960,Account deactivated even though I am an active subscriber. Thank you for your help.,Account Access,Account Access,Medium,Medium
+TKT-0480,I was charged for a premium feature I never activated. Could you help?,Billing Issue,Billing Issue,Medium,Medium
+TKT-0525,Error 503 keeps appearing when accessing the dashboard. Looking forward to your response.,Technical Issue,Technical Issue,High,High
+TKT-0586,I need this resolved ASAP. What is your data privacy and security policy? Please advise.,General Inquiry,General Inquiry,Low,High
+TKT-0070,Performance has degraded significantly since the last patch. Please advise.,Technical Issue,Technical Issue,Medium,Medium
+TKT-0838,The verification email was never delivered to my inbox. Thank you for your help.,Account Access,Account Access,Medium,Medium
+TKT-0661,What integrations are available with other tools? Could you help?,General Inquiry,General Inquiry,Low,Low
+TKT-0415,Is there an API available for custom integrations? Thank you for your help.,General Inquiry,General Inquiry,Low,Low
+TKT-0718,The system is extremely slow and keeps freezing. Appreciate your support.,Technical Issue,Technical Issue,Medium,Medium
+TKT-0426,Currency conversion fee was not mentioned during purchase. Please advise.,Billing Issue,Billing Issue,Medium,Medium
+TKT-0227,I need this resolved ASAP. Payment gateway keeps rejecting my valid credit card. Thanks!,Billing Issue,Billing Issue,Medium,High
+TKT-0862,Tax amount on invoice seems incorrect for my region. Could you help?,Billing Issue,Billing Issue,Medium,Medium
+TKT-0151,The invoice amount does not match my subscription plan. Appreciate your support.,Billing Issue,Billing Issue,Medium,Low
+TKT-0667,I need this resolved ASAP. I need to recover my account after losing my phone. Please advise.,Account Access,Account Access,Medium,High
+TKT-0139,Please help immediately! How does your data backup system work? Looking forward to your response.,General Inquiry,General Inquiry,High,High
+TKT-0832,Someone may have hacked into my account without permission. Thanks!,Account Access,Account Access,High,High
+TKT-0291,File upload fails with a network error message.,Technical Issue,Technical Issue,High,High
+TKT-0079,I cannot install the latest version on my computer. Thanks!,Technical Issue,Technical Issue,Medium,Medium
+TKT-0779,I need to update my payment method on file. Please advise.,Billing Issue,Billing Issue,Medium,Medium
+TKT-0178,My account has been locked after multiple failed attempts. Please advise.,Account Access,Account Access,High,High
+TKT-0840,Guest access link is not working for external users. Looking forward to your response.,Account Access,Account Access,High,High
+TKT-0378,Can I use the service for my non-profit organization?,General Inquiry,General Inquiry,Low,Medium
+TKT-0438,Do you have documentation or tutorials for beginners? Looking forward to your response.,General Inquiry,General Inquiry,Low,Low
+TKT-0492,I need this resolved ASAP. I need to dispute a charge that appears on my statement. Please advise.,Billing Issue,Billing Issue,Medium,High
+TKT-0411,Do you provide onboarding support for new customers?,General Inquiry,General Inquiry,Low,Medium
+TKT-0344,OAuth login with Google keeps failing with an error. Looking forward to your response.,Account Access,Account Access,High,High
+TKT-0542,Emergency! I'm experiencing frequent timeout errors on the server. Thanks!,Technical Issue,Technical Issue,High,High
+TKT-0909,Can I export all my data if I decide to leave? Appreciate your support.,General Inquiry,General Inquiry,Low,Medium
+TKT-0403,Do you provide onboarding support for new customers? Thank you for your help.,General Inquiry,General Inquiry,Low,Medium
+TKT-0025,How do I provide feedback or suggest a feature? Please advise.,General Inquiry,General Inquiry,Low,Low
+TKT-0063,What is your data privacy and security policy? Could you help?,General Inquiry,General Inquiry,Low,Low
+TKT-0780,This is critical — I cannot install the latest version on my computer. Looking forward to your response.,Technical Issue,Technical Issue,High,High
+TKT-0859,The invoice amount does not match my subscription plan. Looking forward to your response.,Billing Issue,Billing Issue,Medium,Low
+TKT-0036,Performance has degraded significantly since the last patch. Thanks!,Technical Issue,Technical Issue,Medium,Medium
+TKT-0666,The website shows a 404 error on multiple pages. Thank you for your help.,Technical Issue,Technical Issue,High,High
+TKT-0638,How can I contact the sales team for a demo? Looking forward to your response.,General Inquiry,General Inquiry,Low,Low
+TKT-0439,I cannot install the latest version on my computer. Could you help?,Technical Issue,Technical Issue,Medium,Medium
+TKT-0942,The export to PDF function is broken and produces empty files. Thanks!,Technical Issue,Technical Issue,High,High
+TKT-0199,Can you provide more information about your enterprise plan? Looking forward to your response.,General Inquiry,General Inquiry,Low,Low
+TKT-0005,Payment gateway keeps rejecting my valid credit card. Please advise.,Billing Issue,Billing Issue,Medium,Medium
+TKT-0971,The export to PDF function is broken and produces empty files. Thank you for your help.,Technical Issue,Technical Issue,High,High
+TKT-0409,The search feature returns no results even for valid queries. Looking forward to your response.,Technical Issue,Technical Issue,Medium,Medium

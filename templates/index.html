@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Ticket Classifier — Smart Support Routing</title>
+    <meta name="description" content="AI-powered customer support ticket classification and priority assignment system.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="bg-grid"></div>
+    <div class="bg-glow bg-glow-1"></div>
+    <div class="bg-glow bg-glow-2"></div>
+    <div class="bg-glow bg-glow-3"></div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <div class="logo-icon">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/>
+                        <polyline points="14,2 14,8 20,8"/>
+                        <line x1="16" y1="13" x2="8" y2="13"/>
+                        <line x1="16" y1="17" x2="8" y2="17"/>
+                        <line x1="10" y1="9" x2="8" y2="9"/>
+                    </svg>
+                </div>
+                <div>
+                    <h1 class="logo-text">TicketAI</h1>
+                    <p class="logo-sub">Intelligent Ticket Router</p>
+                </div>
+            </div>
+            <nav class="nav-pills">
+                <button class="nav-pill active" data-tab="classify" id="nav-classify">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+                    Classify
+                </button>
+                <button class="nav-pill" data-tab="batch" id="nav-batch">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
+                    Batch
+                </button>
+                <button class="nav-pill" data-tab="examples" id="nav-examples">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                    Examples
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+
+        <!-- CLASSIFY TAB -->
+        <section id="tab-classify" class="tab-content active">
+            <div class="hero-card">
+                <div class="hero-badge">AI-Powered Classification</div>
+                <h2 class="hero-title">Classify a Support Ticket</h2>
+                <p class="hero-desc">Enter a customer support ticket below and our ML model will instantly predict the <strong>category</strong> and <strong>priority level</strong>.</p>
+
+                <div class="input-group">
+                    <textarea id="ticket-input" rows="4" placeholder="e.g. My application keeps crashing after the latest update and I need this fixed urgently..." maxlength="1000"></textarea>
+                    <div class="input-footer">
+                        <span class="char-count"><span id="char-count">0</span>/1000</span>
+                        <button id="classify-btn" class="btn-primary" onclick="classifyTicket()">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 2L11 13"/><path d="M22 2L15 22L11 13L2 9L22 2Z"/></svg>
+                            Classify Ticket
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Result Card (hidden by default) -->
+            <div id="result-card" class="result-card hidden">
+                <div class="result-header">
+                    <h3>Classification Results</h3>
+                    <div class="result-badges">
+                        <span id="result-category" class="badge badge-category"></span>
+                        <span id="result-priority" class="badge badge-priority"></span>
+                    </div>
+                </div>
+
+                <div class="result-grid">
+                    <div class="result-item">
+                        <div class="result-label">Category</div>
+                        <div id="result-cat-text" class="result-value"></div>
+                    </div>
+                    <div class="result-item">
+                        <div class="result-label">Priority</div>
+                        <div id="result-pri-text" class="result-value"></div>
+                    </div>
+                </div>
+
+                <!-- Confidence Bars -->
+                <div class="confidence-section">
+                    <h4 class="confidence-title">Confidence Scores</h4>
+                    <div id="confidence-bars" class="confidence-bars"></div>
+                </div>
+
+                <div class="preprocessed-section">
+                    <h4>Preprocessed Text</h4>
+                    <code id="cleaned-text" class="cleaned-text"></code>
+                </div>
+            </div>
+        </section>
+
+        <!-- BATCH TAB -->
+        <section id="tab-batch" class="tab-content">
+            <div class="hero-card">
+                <div class="hero-badge">Bulk Processing</div>
+                <h2 class="hero-title">Batch Classification</h2>
+                <p class="hero-desc">Enter multiple tickets — <strong>one per line</strong> — and classify them all at once.</p>
+
+                <div class="input-group">
+                    <textarea id="batch-input" rows="8" placeholder="My app crashed and I lost data&#10;I was charged twice this month&#10;How do I reset my password?&#10;What plans do you offer?"></textarea>
+                    <div class="input-footer">
+                        <span class="char-count">One ticket per line</span>
+                        <button id="batch-btn" class="btn-primary" onclick="batchClassify()">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
+                            Classify All
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="batch-results" class="batch-results hidden"></div>
+        </section>
+
+        <!-- EXAMPLES TAB -->
+        <section id="tab-examples" class="tab-content">
+            <div class="hero-card">
+                <div class="hero-badge">Quick Test</div>
+                <h2 class="hero-title">Try Example Tickets</h2>
+                <p class="hero-desc">Click any example below to instantly classify it.</p>
+            </div>
+
+            <div class="examples-grid">
+                <div class="example-card" onclick="tryExample(this)">
+                    <div class="example-icon" style="background: linear-gradient(135deg, #ef4444, #dc2626);">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+                    </div>
+                    <h4>Technical Issue</h4>
+                    <p class="example-text">URGENT: The application keeps crashing with a fatal error every time I try to open it. I need this fixed immediately!</p>
+                </div>
+
+                <div class="example-card" onclick="tryExample(this)">
+                    <div class="example-icon" style="background: linear-gradient(135deg, #f59e0b, #d97706);">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><rect x="2" y="5" width="20" height="14" rx="2"/><line x1="2" y1="10" x2="22" y2="10"/></svg>
+                    </div>
+                    <h4>Billing Issue</h4>
+                    <p class="example-text">I was charged twice for my subscription this month and I need a refund for the duplicate payment.</p>
+                </div>
+
+                <div class="example-card" onclick="tryExample(this)">
+                    <div class="example-icon" style="background: linear-gradient(135deg, #6366f1, #4f46e5);">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                    </div>
+                    <h4>Account Access</h4>
+                    <p class="example-text">My account has been locked after multiple failed login attempts and the password reset link is not working.</p>
+                </div>
+
+                <div class="example-card" onclick="tryExample(this)">
+                    <div class="example-icon" style="background: linear-gradient(135deg, #10b981, #059669);">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+                    </div>
+                    <h4>General Inquiry</h4>
+                    <p class="example-text">What subscription plans do you offer and is there a free trial available before committing?</p>
+                </div>
+
+                <div class="example-card" onclick="tryExample(this)">
+                    <div class="example-icon" style="background: linear-gradient(135deg, #ec4899, #db2777);">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+                    </div>
+                    <h4>Edge Case</h4>
+                    <p class="example-text">This is not working and I need it fixed immediately! Nothing loads on any of my devices.</p>
+                </div>
+
+                <div class="example-card" onclick="tryExample(this)">
+                    <div class="example-icon" style="background: linear-gradient(135deg, #8b5cf6, #7c3aed);">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                    </div>
+                    <h4>Security Concern</h4>
+                    <p class="example-text">Someone may have hacked into my account. I see unauthorized login activity from an unknown location.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>Built with <strong>Scikit-learn</strong> · <strong>NLTK</strong> · <strong>Flask</strong> — ML-powered ticket classification</p>
+        </div>
+    </footer>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
